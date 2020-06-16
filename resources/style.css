@@ -70,3 +70,22 @@ h2 {
 #main-doc {
 	padding: 1em;
 }
+
+/* media queries  */
+
+@media only screen and (max-width: 600px) {
+	body {
+		flex-direction: column;
+		z-index: -1;
+	}
+	#navbar {
+		position: fixed;
+		background-color: white;
+		width: 100%;
+		z-index: +1;
+	}
+	main {
+		margin-top: 25em;
+	}
+
+}
